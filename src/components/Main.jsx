@@ -4,7 +4,6 @@ import Header from './header/Header'
 import initialTweets from '../tweets.json'
 import { nanoid } from 'nanoid'
 import { useState } from 'react'
-import { Outlet } from 'react-router-dom'
 
 const CURRENT_USER = 'daniyar'
 

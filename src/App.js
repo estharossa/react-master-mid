@@ -6,22 +6,14 @@ const router = createBrowserRouter([
   {
     id: "root",
     path: "/",
-    Component: Main,
-    children: [
-      
-    ],
+    element: <Main />,
   }
 ]);
 
 
 function App() {
   return (
-    // <div className="app">
-    //   <RouterProvider router={router} fallbackElement={<p>Initial Load...</p>} />
-    // </div>
-    <div className="app">
-      <Main/>
-    </div>
+      <RouterProvider router={router} fallbackElement={<p>Initial Load...</p>} />
   )
 }
 
